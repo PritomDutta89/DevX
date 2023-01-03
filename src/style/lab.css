@@ -1,0 +1,56 @@
+.Lab_wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Lab_wrapper1{
+    margin-bottom: 2rem;
+}
+
+.L1{
+    font-size: 3rem;
+}
+
+.L2{
+    font-weight: 600;
+}
+.L3{
+   font-weight: 600;
+   color: rgb(8, 190, 236);
+}
+
+.btn{
+    background: rgb(24, 214, 135);
+    border: none;
+    color: rgb(15, 15, 15);
+    padding: 0.9375rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0.25rem 0.125rem;
+    cursor: pointer;
+    font-weight: 800;
+  }
+
+@media(max-width:800px){
+    .L1{
+        font-size: 2rem;
+    }
+
+}
+
+@media(max-width:550px){
+    .L1{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:400px){
+    .L1{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.Page{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    box-sizing: border-box;
+    z-index: 0;
+}
+.Container{
+    position: absolute; 
+    top: 20.5%;
+    left: 36%;   
+    z-index: 100;
+    transition : all 1s;
+}
+
+.Login{
+    background-color: black;
+    border: 4px solid rgb(8, 190, 236);
+    box-shadow: 0 0 5px 5px rgb(134, 206, 224);
+    border-radius: 50%;
+    height: 56vh;
+    width: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.input_form{
+    padding: 0.75rem;
+    width: 16rem;
+    background: black;
+    color: rgb(8, 190, 236);
+    letter-spacing: 5px;
+    border: 1px solid rgb(8, 190, 236);
+    outline: 0;
+    margin-top: 0.125rem;
+}
+
+.input_form1{
+    color: rgba(201, 199, 199, 0.979);
+    font-size: 0.75rem;                
+    margin-left: 2.9rem;
+}
+
+.btn1{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.btn{
+  background-color: rgb(24, 176, 214);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 0.9375rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0.25rem 0.125rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+/*  
+@media(max-width:1300px){
+
+} */
+
+ 
+@media(max-width:1300px){
+    .Login{
+        border-radius: 50%;
+        height: 43vh;
+        width: 30vw;
+    }
+    .Container{
+        top: 25%;
+        left: 34.8%;   
+    }
+    
+    .input_form{
+        padding: 0.75rem;
+        width: 12rem;
+        margin-top: 0.255rem;
+    }
+    .btn{
+      background-color: rgb(24, 176, 214);
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 0.9375rem 2rem;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1rem;
+      margin: 0.25rem 0.125rem;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .input_form1{
+        font-size: 0.75rem;
+        margin-left: 0.9rem;
+    }
+}
+
+@media(max-width:1000px){
+    .input_form{
+        padding: 0.55rem;
+        width: 9rem;
+        margin-top: 0.125rem;
+        margin-left: 1rem;
+    }
+    .btn{
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      margin: 0.5rem 2rem;
+      margin-left: 3rem;
+    }
+    .input_form1{
+        font-size: 0.5rem;
+        margin-left: 2rem;
+    }
+    .Login{
+        height: 25vh;
+        width: 34vw;    
+    }
+    .Container{
+        top: 28%;
+        left: 32%;   
+    }
+}
+
+
+@media(max-width:800px){
+    .input_form{
+        padding: 0.2rem;
+        width: 8rem;
+        margin-top: 0.2rem;
+        margin-right: 1rem;
+    }
+    .btn{
+      padding: 0.5rem 0.8rem;
+      font-size: 0.8rem;
+      margin: 0.4rem 0rem;
+      margin-left: 0.3rem;
+    }
+    .input_form1{
+        font-size: 0.4rem;
+        margin-left: 2.2rem;
+    }
+    .Login{
+        height: 26vh;
+        width: 30vw;    
+    }
+    .Container{
+        top: 32%;
+        left: 35%;   
+    }
+}
+
+@media(max-width:600px){
+    .input_form{
+        padding: 0.1rem;
+        width: 5rem;
+        margin-top: 0.2rem;
+        margin-right: 1rem;
+    }
+    .btn{
+      padding: 0.3rem 0.5rem;
+      font-size: 0.5rem;
+      margin: 0.4rem 0rem;
+      margin-left: 0.5rem;
+    }
+    .input_form1{
+        font-size: 0.3rem;
+        margin-left: 1.3rem;
+    }
+    .Login{
+        height: 24vh;
+        width: 34vw;    
+    }
+    .Container{
+        top: 32%;
+        left: 32%;   
+    }
+}
+
+@media(max-width:400px){
+    .input_form{
+        padding: 0.1rem;
+        width: 5rem;
+        margin-top: 0.1rem;
+        margin-right: 1rem;
+    }
+    .btn{
+      padding: 0.3rem 0.5rem;
+      font-size: 0.5rem;
+      margin: 0.1rem 0rem;
+      margin-left: 0.5rem;
+    }
+    .input_form1{
+        font-size: 0.3rem;
+        margin-left: 1.3rem;
+    }
+    .Login{
+        height: 25vh;
+        width: 37vw;    
+    }
+    .Container{
+        top: 32%;
+        left: 30%;   
+    }
+}
